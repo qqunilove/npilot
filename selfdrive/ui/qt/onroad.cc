@@ -457,10 +457,10 @@ void NvgWindow::drawHud(QPainter &p) {
 
   drawMaxSpeed(p);
   drawSpeed(p);
-  drawSteer(p);
-  drawThermal(p);
-  drawTurnSignals(p);
-  drawGpsStatus(p);
+  // drawSteer(p);
+  // drawThermal(p);
+  // drawTurnSignals(p);
+  // drawGpsStatus(p);
 
   if(s->show_debug && width() > 1200)
     drawDebugText(p);
